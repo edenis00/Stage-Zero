@@ -1,0 +1,15 @@
+[project]
+name = "stage-zero"
+version = "0.1.0"
+description = "API displaying my details along with a random cat fact."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.119.0",
+    "httpx>=0.28.1",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "python-dotenv>=1.1.1",
+    "slowapi>=0.1.9",
+    "uvicorn>=0.37.0",
+]
