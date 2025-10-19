@@ -23,19 +23,14 @@ A RESTful API endpoint that returns profile information along with dynamic cat f
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone [<(https://github.com/edenis00/Stage-Zero)>]
 cd Stage-One
 ```
 
 2. Install dependencies using UV:
 ```bash
-uv venv
+uv sync
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
-
-Or using pip:
-```bash
-pip install fastapi "uvicorn[standard]" python-dotenv httpx
 ```
 
 3. Create a `.env` file in the project root:
