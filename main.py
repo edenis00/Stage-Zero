@@ -78,7 +78,7 @@ async def me(request: Request):
             fact = data.get("fact", default_fact)
             logger.info("Successfully fetched random cat fact: %s", fact)
 
-            timestamp = datetime.now(timezone.utc).isoformat(timespec="milliseconds") + "Z"
+            timestamp = datetime.now(timezone.utc).isoformat()
 
             return ProfileResponse(
                 status="success",
