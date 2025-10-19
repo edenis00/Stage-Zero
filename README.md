@@ -23,7 +23,7 @@ A RESTful API endpoint that returns profile information along with dynamic cat f
 
 1. Clone the repository:
 ```bash
-git clone [<(https://github.com/edenis00/Stage-Zero)>]
+git clone https://github.com/edenis00/Stage-Zero
 cd Stage-One
 ```
 
@@ -31,6 +31,13 @@ cd Stage-One
 ```bash
 uv sync
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+or using pip
+create a virtual environment
+```bash
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirments.txt
 ```
 
 3. Create a `.env` file in the project root:
